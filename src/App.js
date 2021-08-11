@@ -1,9 +1,10 @@
-import logo from './logo.svg';
+import LoginForm from './containers/Login/login';
 import './App.css';
+import './img/logo.jpg'
 
 function App() {
-  return null
- 
+  
+  return (<LoginForm/>)
 }
 
 export default App;
