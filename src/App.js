@@ -1,6 +1,6 @@
 import LoginForm from './containers/Login/login';
 import './App.css';
-import './img/logo.jpg'
+
 
 function App() {
   
