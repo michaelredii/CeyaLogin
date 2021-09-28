@@ -1,4 +1,5 @@
 import React from 'react'
+import GoogleButton from 'react-google-button'
 
 function LoginForm() {
     return (
@@ -8,10 +9,10 @@ function LoginForm() {
                     
                 </div>
                 <div className="form-inner">
-                    <div className="form-group">
-                        <button id="btnGoogle">
-                            LOG IN with Google
-                        </button>
+                    <div className="btnGoogle">
+                        <GoogleButton>
+
+                        </GoogleButton>
                     </div>
 
                     <div className="form-group">
