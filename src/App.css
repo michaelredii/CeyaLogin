@@ -2,13 +2,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .container{
     position: relative;
-}
-
-form div.ceyaLogo{
-    height: 300px;    
 }
 
 form{
@@ -22,6 +17,18 @@ form{
     border-radius: 57px;
 }
 
+form div.ceyaLogo{
+    height: 250px;
+    display: flex;
+    top: -50%;
+    justify-content: center;
+}
+
+form div img{
+    height: 50px;
+    width: 40px;
+    
+}
 form div.inner-form{
     position: fixed;
     width: 345px;
