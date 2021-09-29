@@ -1,17 +1,16 @@
 import React from 'react'
 import GoogleButton from 'react-google-button'
-
 function LoginForm() {
     return (
         <div className="container">
             <form>
                 <div className="ceyaLogo">
-                    
+                    <img src="img/logo.jpg" className="logo" alt="" />
                 </div>
                 <div className="form-inner">
-                    <div className="btnGoogle">
+                    <div className="form-group">
                         <GoogleButton>
-
+                            
                         </GoogleButton>
                     </div>
 
